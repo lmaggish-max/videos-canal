@@ -22,3 +22,10 @@ Quem usa isto: o Claude, em uma conversa nova por vídeo (conversa curta = menos
 - Câmera alta (~45°) em cenas de planta; legendas palavra por palavra; erro nunca anunciado antes da consequência.
 - Reduzir custo: conferir poucos quadros, não ficar re-renderizando, falar curto com o usuário.
 - Se faltar tempo, renderizar em 720p (`--scale=0.667`) fica 2x mais rápido.
+
+## Fórmula de roteiro (exemplo perfeito: vídeo 3D da usina de Itaipu, enviado pelo usuário)
+Cadeia repetida: problema ("Mas...") -> solução ("Então você...") -> nome técnico na tela ("Esse é o ...").
+Sempre "você" como quem constrói; começa no meio da ação ("Você quer X."); 1 termo técnico e 1 número concreto por passo
+(metros, dias, quantidade, conferidos em fonte); imagem muda a cada frase; fecha com "Parabéns! Você construiu ..." + 2 fatos reais.
+O erro vira problema: mostrar a consequência e só depois a causa. Nossos vídeos: 3 a 4 passos, 45 a 75 s.
+Modelos prontos no documento "Roteiros do mês" (seção "Fórmula do exemplo perfeito"). Reescrever cada roteiro nessa fórmula antes de produzir.
