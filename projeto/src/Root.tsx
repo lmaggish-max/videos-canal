@@ -13,6 +13,8 @@ import {Supermercado} from './Supermercado';
 import ST from './stime.json';
 import {Tunel} from './Tunel';
 import TT from './ttime.json';
+import {RioNiteroi} from './RioNiteroi';
+import RT from './rtime.json';
 import {Alcatraz} from './Alcatraz';
 import AT from './atime.json';
 import {PredioScene} from './Predio';
@@ -30,5 +32,6 @@ export const Root: React.FC = () => (
     <Composition id="Supermercado" component={Supermercado} durationInFrames={ST.frames} fps={30} width={1080} height={1920} />
     <Composition id="Alcatraz" component={Alcatraz} durationInFrames={AT.frames} fps={30} width={1080} height={1920} />
     <Composition id="Tunel" component={Tunel} durationInFrames={TT.frames} fps={30} width={1080} height={1920} />
+    <Composition id="RioNiteroi" component={RioNiteroi} durationInFrames={RT.frames} fps={30} width={1080} height={1920} />
   </>
 );
