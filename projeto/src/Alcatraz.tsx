@@ -115,7 +115,7 @@ export const Alcatraz: React.FC = () => {
   const wColor = ['alcatraz', 'escapava', 'ninguém'].includes(key) ? '#ffd23f' : ['gelada', 'correnteza'].includes(key) ? '#7cd0ff' : undefined;
   const pop = spring({frame: f - (cur ? cur[1] : 0), fps, config: {damping: 12, stiffness: 180}});
   const wScale = interpolate(pop, [0, 1], [0.6, 1]);
-  const BAN = ['ALCATRAZ • 1962', 'MESES RASPANDO A PAREDE', 'BONECOS NAS CAMAS', 'A NOITE DA FUGA', 'BAÍA GELADA', 'BOTE DE CAPAS DE CHUVA', 'NINGUÉM SABE...', 'VOCÊ TERIA TENTADO?'];
+  const BAN = ['ALCATRAZ • 1962', 'MESES RASPANDO A PAREDE', 'BONECOS NAS CAMAS', 'SAÍDA PELO TELHADO', 'BAÍA GELADA', 'BOTE DE CAPAS DE CHUVA', 'NUNCA FORAM ENCONTRADOS', 'CHEGARAM AO OUTRO LADO?'];
   const banPop = spring({frame: f - Math.round(st(si) * 30), fps, config: {damping: 12, stiffness: 160}});
   const fog = ease(prog(t, st(6) + 0.2, en(6) + 0.6)) * 0.75;
 
